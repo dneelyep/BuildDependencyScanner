@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6B
 		Documents\Examples\SimpleExample.bdd = Documents\Examples\SimpleExample.bdd
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildDependencyDocumentParser", "Core\BuildDependencyDocumentParser\BuildDependencyDocumentParser.csproj", "{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +39,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D} = {CC8C7B27-8CFB-4251-AE9E-A651238DE8A9}
 		{6BC7739B-560F-4C30-A366-09A804C2F147} = {1B6DB000-7970-4A35-9AFB-2C473EC5010C}
+		{323153D2-3E19-4B5A-9A5F-5FEF5A2EF2D2} = {C81C2068-CB11-4831-9A2C-5AB2A96EC582}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87EB7A6F-DA08-419E-80C7-1D04C2F17F66}
