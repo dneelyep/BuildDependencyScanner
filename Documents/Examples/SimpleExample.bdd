@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies>
+    <FolderDependency Name="SolutionFile" Path=".\Subfolder" />
+    <FileDependency Name="SolutionFile" Path=".\Subfolder\MySolution.sln" />
+    <FileDependency Name="Project1ProjectFile" Path=".\Subfolder\Project1\Project1.csproj" />
+</Dependencies>

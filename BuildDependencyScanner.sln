@@ -5,9 +5,16 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runners", "Runners", "{CC8C7B27-8CFB-4251-AE9E-A651238DE8A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRunner", "Runners\ConsoleRunner\ConsoleRunner.csproj", "{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleRunner", "Runners\ConsoleRunner\ConsoleRunner.csproj", "{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C81C2068-CB11-4831-9A2C-5AB2A96EC582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{1B6DB000-7970-4A35-9AFB-2C473EC5010C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{6BC7739B-560F-4C30-A366-09A804C2F147}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Examples\SimpleExample.bdd = Documents\Examples\SimpleExample.bdd
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +32,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{93C01BB9-9366-47FA-A3ED-ECD2D765FA1D} = {CC8C7B27-8CFB-4251-AE9E-A651238DE8A9}
+		{6BC7739B-560F-4C30-A366-09A804C2F147} = {1B6DB000-7970-4A35-9AFB-2C473EC5010C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87EB7A6F-DA08-419E-80C7-1D04C2F17F66}
